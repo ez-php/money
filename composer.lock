@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "46d54af5e4ae693f18f788ba6e49b9f8",
+    "content-hash": "ec5450952faa6835d6005cc4ddef2352",
     "packages": [
         {
             "name": "ez-php/bignum",
-            "version": "1.0.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ez-php/bignum.git",
-                "reference": "a4902a898adebe4734ec9017a9829805b22ff8c1"
+                "reference": "2f058e4c9f6da1a0290148d5021a92e9d7f9eb00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ez-php/bignum/zipball/a4902a898adebe4734ec9017a9829805b22ff8c1",
-                "reference": "a4902a898adebe4734ec9017a9829805b22ff8c1",
+                "url": "https://api.github.com/repos/ez-php/bignum/zipball/2f058e4c9f6da1a0290148d5021a92e9d7f9eb00",
+                "reference": "2f058e4c9f6da1a0290148d5021a92e9d7f9eb00",
                 "shasum": ""
             },
             "require": {
@@ -68,7 +68,7 @@
                 "issues": "https://github.com/ez-php/bignum/issues",
                 "source": "https://github.com/ez-php/bignum"
             },
-            "time": "2026-04-14T21:08:54+00:00"
+            "time": "2026-04-17T15:33:08+00:00"
         }
     ],
     "packages-dev": [
@@ -476,16 +476,16 @@
         },
         {
             "name": "ez-php/docker",
-            "version": "1.4.2",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ez-php/docker.git",
-                "reference": "d9b6e9046bcdf291f5633415e4a2847ae6c13a29"
+                "reference": "9ee1bc0c079ce02a888f882bba9563568dd595ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ez-php/docker/zipball/d9b6e9046bcdf291f5633415e4a2847ae6c13a29",
-                "reference": "d9b6e9046bcdf291f5633415e4a2847ae6c13a29",
+                "url": "https://api.github.com/repos/ez-php/docker/zipball/9ee1bc0c079ce02a888f882bba9563568dd595ad",
+                "reference": "9ee1bc0c079ce02a888f882bba9563568dd595ad",
                 "shasum": ""
             },
             "require": {
@@ -503,9 +503,9 @@
             "description": "Docker base image source and scaffolding stubs for ez-php modules and projects",
             "support": {
                 "issues": "https://github.com/ez-php/docker/issues",
-                "source": "https://github.com/ez-php/docker/tree/v1.4.2"
+                "source": "https://github.com/ez-php/docker/tree/v1.5.0"
             },
-            "time": "2026-04-11T20:48:12+00:00"
+            "time": "2026-04-17T15:33:08+00:00"
         },
         {
             "name": "fidry/cpu-core-counter",
@@ -911,11 +911,11 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.1.49",
+            "version": "2.1.50",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/d0082955396e7f5ba19cf298224b85e1099f0ed8",
-                "reference": "d0082955396e7f5ba19cf298224b85e1099f0ed8",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/d452086fb4cf648c6b2d8cf3b639351f79e4f3e2",
+                "reference": "d452086fb4cf648c6b2d8cf3b639351f79e4f3e2",
                 "shasum": ""
             },
             "require": {
@@ -960,7 +960,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-16T21:10:58+00:00"
+            "time": "2026-04-17T13:10:32+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
@@ -1447,16 +1447,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "13.1.5",
+            "version": "13.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "89adcba73441b38db31d5c0473b61e2907311db0"
+                "reference": "c3c414ea438e5a37d00697eaea43e6e05e201a42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/89adcba73441b38db31d5c0473b61e2907311db0",
-                "reference": "89adcba73441b38db31d5c0473b61e2907311db0",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c3c414ea438e5a37d00697eaea43e6e05e201a42",
+                "reference": "c3c414ea438e5a37d00697eaea43e6e05e201a42",
                 "shasum": ""
             },
             "require": {
@@ -1526,7 +1526,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/13.1.5"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/13.1.6"
             },
             "funding": [
                 {
@@ -1534,7 +1534,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2026-04-16T04:58:40+00:00"
+            "time": "2026-04-17T12:52:50+00:00"
         },
         {
             "name": "psr/container",

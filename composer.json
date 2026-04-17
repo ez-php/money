@@ -1,6 +1,6 @@
 {
   "name": "ez-php/money",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "Immutable Money and Currency value objects for the ez-php ecosystem — ISO 4217 currencies, arbitrary-precision arithmetic via ez-php/bignum, allocation, and locale-aware formatting",
   "type": "library",
   "license": "MIT",
