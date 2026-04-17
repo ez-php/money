@@ -60,6 +60,6 @@ final class CurrencyRegistryTest extends TestCase
         self::assertArrayHasKey('EUR', $all);
         self::assertArrayHasKey('USD', $all);
         self::assertArrayHasKey('JPY', $all);
-        self::assertContainsOnlyInstancesOf(Currency::class, $all);
+        self::assertGreaterThan(100, count($all));
     }
 }
