@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Tests;
 
 use EzPhp\BigNum\BigDecimal;
-use EzPhp\BigNum\BigInteger;
 use EzPhp\BigNum\DivisionByZeroException;
 use EzPhp\BigNum\RoundingMode;
 use EzPhp\Money\Currency;
@@ -18,11 +17,8 @@ use PHPUnit\Framework\Attributes\UsesClass;
 
 #[CoversClass(Money::class)]
 #[UsesClass(Currency::class)]
-#[UsesClass(BigDecimal::class)]
-#[UsesClass(BigInteger::class)]
 #[UsesClass(CurrencyMismatchException::class)]
 #[UsesClass(UnknownCurrencyException::class)]
-#[UsesClass(DivisionByZeroException::class)]
 final class MoneyTest extends TestCase
 {
     // -------------------------------------------------------------------------
