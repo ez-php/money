@@ -19,13 +19,13 @@
   "require": {
     "php": "^8.5",
     "ext-gmp": "*",
-    "ez-php/bignum": "^2.0"
+    "ez-php/bignum": "^1.0"
   },
   "suggest": {
     "ext-intl": "Required for IntlMoneyFormatter and IntlMoneyParser (locale-aware formatting)"
   },
   "require-dev": {
-    "ez-php/docker": "^2.0",
+    "ez-php/docker": "^1.0",
     "phpunit/phpunit": "^13.0",
     "phpstan/phpstan": "^2.1",
     "friendsofphp/php-cs-fixer": "^3.94",
