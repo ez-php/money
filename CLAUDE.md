@@ -321,7 +321,7 @@ Returns `array<string, array{0: string, 1: string, 2: int, 3: string}>`:
 
 | Concern | Where it belongs |
 |---|---|
-| Exchange-rate conversion | `ez-php/exchange` (future) |
+| Exchange-rate conversion | `ez-php/exchange` |
 | Tax / VAT calculation | Application layer |
 | Payment gateway integration | Infrastructure / application layer |
 | Arbitrary-precision primitives | `ez-php/bignum` |
