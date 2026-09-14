@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ac7343ea2b6ab78a8dcbcc13289bd2d4",
+    "content-hash": "78714746c1da3369bb415e94548c7e30",
     "packages": [
         {
             "name": "ez-php/bignum",
-            "version": "2.3.6",
+            "version": "2.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ez-php/bignum.git",
-                "reference": "c389ee8c1e2c2cc28f0689d03d90d98cc38c470a"
+                "reference": "80285df530dd8972519695048db3efe1acc324e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ez-php/bignum/zipball/c389ee8c1e2c2cc28f0689d03d90d98cc38c470a",
-                "reference": "c389ee8c1e2c2cc28f0689d03d90d98cc38c470a",
+                "url": "https://api.github.com/repos/ez-php/bignum/zipball/80285df530dd8972519695048db3efe1acc324e0",
+                "reference": "80285df530dd8972519695048db3efe1acc324e0",
                 "shasum": ""
             },
             "require": {
@@ -68,7 +68,7 @@
                 "issues": "https://github.com/ez-php/bignum/issues",
                 "source": "https://github.com/ez-php/bignum"
             },
-            "time": "2026-09-14T19:01:24+00:00"
+            "time": "2026-09-14T19:44:37+00:00"
         }
     ],
     "packages-dev": [
@@ -473,16 +473,16 @@
         },
         {
             "name": "ez-php/docker",
-            "version": "2.3.6",
+            "version": "2.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ez-php/docker.git",
-                "reference": "0827469c2984ea6d27be3325fe5122484c0980ce"
+                "reference": "016fc7cd1b1704e9425f0a97e2ddafdbff392676"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ez-php/docker/zipball/0827469c2984ea6d27be3325fe5122484c0980ce",
-                "reference": "0827469c2984ea6d27be3325fe5122484c0980ce",
+                "url": "https://api.github.com/repos/ez-php/docker/zipball/016fc7cd1b1704e9425f0a97e2ddafdbff392676",
+                "reference": "016fc7cd1b1704e9425f0a97e2ddafdbff392676",
                 "shasum": ""
             },
             "require": {
@@ -503,9 +503,9 @@
             "description": "Docker base image source and scaffolding stubs for ez-php modules and projects",
             "support": {
                 "issues": "https://github.com/ez-php/docker/issues",
-                "source": "https://github.com/ez-php/docker/tree/v2.3.6"
+                "source": "https://github.com/ez-php/docker/tree/v2.3.7"
             },
-            "time": "2026-09-14T19:01:24+00:00"
+            "time": "2026-09-14T19:44:35+00:00"
         },
         {
             "name": "fidry/cpu-core-counter",
