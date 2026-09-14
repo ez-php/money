@@ -8,20 +8,20 @@
     "packages": [
         {
             "name": "ez-php/bignum",
-            "version": "2.3.7",
+            "version": "2.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ez-php/bignum.git",
-                "reference": "80285df530dd8972519695048db3efe1acc324e0"
+                "reference": "2b275846ef63cc58dd10820820b6f91ab956a7a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ez-php/bignum/zipball/80285df530dd8972519695048db3efe1acc324e0",
-                "reference": "80285df530dd8972519695048db3efe1acc324e0",
+                "url": "https://api.github.com/repos/ez-php/bignum/zipball/2b275846ef63cc58dd10820820b6f91ab956a7a2",
+                "reference": "2b275846ef63cc58dd10820820b6f91ab956a7a2",
                 "shasum": ""
             },
             "require": {
-                "ext-gmp": "*",
+                "ext-bcmath": "*",
                 "php": "^8.5"
             },
             "require-dev": {
@@ -33,7 +33,7 @@
                 "phpunit/phpunit": "^13.0"
             },
             "suggest": {
-                "ext-bcmath": "Alternative integer arithmetic backend (BcMathBackend)"
+                "ext-gmp": "Faster arithmetic backend (GmpBackend), auto-selected when loaded"
             },
             "type": "library",
             "autoload": {
@@ -68,7 +68,7 @@
                 "issues": "https://github.com/ez-php/bignum/issues",
                 "source": "https://github.com/ez-php/bignum"
             },
-            "time": "2026-09-14T19:44:37+00:00"
+            "time": "2026-09-14T20:26:23+00:00"
         }
     ],
     "packages-dev": [
@@ -473,16 +473,16 @@
         },
         {
             "name": "ez-php/docker",
-            "version": "2.3.7",
+            "version": "2.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ez-php/docker.git",
-                "reference": "016fc7cd1b1704e9425f0a97e2ddafdbff392676"
+                "reference": "075058583c8d2cdb5d5c2a311c2ac42880f960ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ez-php/docker/zipball/016fc7cd1b1704e9425f0a97e2ddafdbff392676",
-                "reference": "016fc7cd1b1704e9425f0a97e2ddafdbff392676",
+                "url": "https://api.github.com/repos/ez-php/docker/zipball/075058583c8d2cdb5d5c2a311c2ac42880f960ac",
+                "reference": "075058583c8d2cdb5d5c2a311c2ac42880f960ac",
                 "shasum": ""
             },
             "require": {
@@ -503,9 +503,9 @@
             "description": "Docker base image source and scaffolding stubs for ez-php modules and projects",
             "support": {
                 "issues": "https://github.com/ez-php/docker/issues",
-                "source": "https://github.com/ez-php/docker/tree/v2.3.7"
+                "source": "https://github.com/ez-php/docker/tree/v2.3.8"
             },
-            "time": "2026-09-14T19:44:35+00:00"
+            "time": "2026-09-14T20:26:21+00:00"
         },
         {
             "name": "fidry/cpu-core-counter",
