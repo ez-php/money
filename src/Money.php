@@ -371,6 +371,9 @@ final class Money implements \Stringable
         return $this->amount->toString() . ' ' . $this->currency->getCode();
     }
 
+    /**
+     * Return the amount and currency code as a string.
+     */
     public function __toString(): string
     {
         return $this->toString();
