@@ -9,6 +9,11 @@ namespace EzPhp\Money\Exception;
  */
 final class UnknownCurrencyException extends MoneyException
 {
+    /**
+     * UnknownCurrencyException Constructor
+     *
+     * @param string $code
+     */
     public function __construct(string $code)
     {
         parent::__construct(\sprintf('Unknown currency code: "%s"', $code));

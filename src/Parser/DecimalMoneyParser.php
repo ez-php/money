@@ -20,6 +20,11 @@ use EzPhp\Money\Money;
  */
 final class DecimalMoneyParser implements MoneyParser
 {
+    /**
+     * DecimalMoneyParser Constructor
+     *
+     * @param RoundingMode $roundingMode
+     */
     public function __construct(
         private readonly RoundingMode $roundingMode = RoundingMode::HALF_UP,
     ) {

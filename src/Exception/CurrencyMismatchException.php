@@ -9,6 +9,12 @@ namespace EzPhp\Money\Exception;
  */
 final class CurrencyMismatchException extends MoneyException
 {
+    /**
+     * CurrencyMismatchException Constructor
+     *
+     * @param string $expected
+     * @param string $actual
+     */
     public function __construct(string $expected, string $actual)
     {
         parent::__construct(

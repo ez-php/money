@@ -14,6 +14,11 @@ use EzPhp\Money\Money;
  */
 final class DecimalMoneyFormatter implements MoneyFormatter
 {
+    /**
+     * DecimalMoneyFormatter Constructor
+     *
+     * @param bool $includeCurrencyCode
+     */
     public function __construct(
         private readonly bool $includeCurrencyCode = false,
     ) {
