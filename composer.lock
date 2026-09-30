@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "61841ebbc0946fa60ad796adb4051673",
+    "content-hash": "49a26e4b71b9f58715410b8c1b31ff54",
     "packages": [
         {
             "name": "ez-php/bignum",
